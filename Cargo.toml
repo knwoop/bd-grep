@@ -1,0 +1,15 @@
+[package]
+name = "bd-grep"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Full-text search over beads (bd) issues"
+license = "MIT"
+repository = "https://github.com/knwoop/bd-grep"
+readme = "README.md"
+keywords = ["beads", "bd", "grep", "issues", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+regex = "1.13.1"
+serde_json = "1.0.154"
