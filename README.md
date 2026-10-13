@@ -15,16 +15,27 @@ zoo-b2	closed	Repaint the lighthouse	close_reason	Done in seafoam green
 
 ## Install
 
-Requires Rust 1.85 or newer, and `bd` on your `PATH` at run time.
+`bd-grep` needs `bd` on your `PATH` at run time.
+
+### Homebrew (macOS, Linux)
+
+```sh
+brew install knwoop/tap/bd-grep
+```
+
+### Prebuilt binaries
+
+Download the archive for your platform from
+[Releases](https://github.com/knwoop/bd-grep/releases), extract it, and put
+`bd-grep` somewhere on your `PATH`. Builds are provided for macOS (Apple
+Silicon, Intel) and Linux (x86_64, arm64; statically linked).
+
+### From source
+
+Requires Rust 1.85 or newer.
 
 ```sh
 cargo install --git https://github.com/knwoop/bd-grep
-```
-
-Or from a checkout:
-
-```sh
-cargo install --path .
 ```
 
 ## Usage
